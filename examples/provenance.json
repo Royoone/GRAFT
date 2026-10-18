@@ -1,0 +1,12 @@
+{
+  "context": "HepG2",
+  "assay": "LINCS L1000",
+  "response_field": "genetic_native / chemical_native",
+  "selection": "first 64 finite, supported genetic IDs in lexical order; first 10 finite, supported drug IDs in lexical order, split into 5 anchors and 5 queries",
+  "n_genetic": 64,
+  "n_anchors": 5,
+  "n_queries": 5,
+  "purpose": "small execution and format example, not a benchmark or a reproduction of reported accuracy",
+  "input_archive_sha256": "4fc936da5a664efb7eb4056d34a7bf98e1c7c9f56587e0cd73d322dbc525b371",
+  "catalog_source_sha256": "f163911b779541417a89b23a440c03462cf312efae9a6a7f7a9408c05429b729"
+}
